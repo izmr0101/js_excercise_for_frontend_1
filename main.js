@@ -6,7 +6,7 @@
 
 const elementByID = document.getElementById('title');
 
-console.log(elementByID);
+console.log('titleElement1の中身 : ', elementByID);
 
 /**
  * 課題2: id値が 'item-container' の要素を取得する
@@ -16,7 +16,7 @@ console.log(elementByID);
 
 const elemenByQuerySelector = document.querySelector('#item-container');
 
-console.log(elemenByQuerySelector);
+console.log('item-containerの中身 : ', elemenByQuerySelector);
 
 /**
  * 課題3: li要素を全て取得する
@@ -25,7 +25,7 @@ console.log(elemenByQuerySelector);
 
 const liElementsByTagName = document.getElementsByTagName('li');
 
-console.log(liElementsByTagName);
+console.log('liElements : ', liElementsByTagName);
 
 /**
  * 課題4: class値が 'item' の要素を全て取得する
@@ -35,7 +35,7 @@ console.log(liElementsByTagName);
 
 const itemElementsByClassName = document.getElementsByClassName('item');
 
-console.log(itemElementsByClassName);
+console.log('itemElements1 : ', itemElementsByClassName);
 
 /**
  * 課題5: class値が 'item' の要素を全て取得する
@@ -45,4 +45,4 @@ console.log(itemElementsByClassName);
 
 const itemElementsByQuerySelectorAll = document.querySelectorAll('.item');
 
-console.log(itemElementsByQuerySelectorAll);
+console.log('itemElements2 : ', itemElementsByQuerySelectorAll);
